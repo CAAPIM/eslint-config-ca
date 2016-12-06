@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "test": "node test/test.js",
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz"
   },
   "dependencies": {
     "eslint": "^3.5.0",
