@@ -4,7 +4,9 @@
   "author": "Bevan Hunt <bevan.hunt@ca.com>",
   "license": "MIT",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz"
   },
   "dependencies": {
     "eslint": "^3.5.0",
@@ -15,10 +17,26 @@
   },
   "devDependencies": {
     "assert": "^1.4.1",
+    "commitizen": "^2.8.6",
+    "cz-conventional-changelog": "^1.2.0",
     "eslint": "^3.5.0",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-plugin-import": "^1.15.0",
     "eslint-plugin-jsx-a11y": "^2.2.2",
-    "eslint-plugin-react": "^6.2.2"
+    "eslint-plugin-react": "^6.2.2",
+    "husky": "^0.11.9",
+    "validate-commit-msg": "^2.8.2"
+  },
+  "config": {
+    "validate-commit-msg": {
+      "types": "conventional-commit-types"
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CAAPIM/eslint-config-ca.git"
   }
 }
