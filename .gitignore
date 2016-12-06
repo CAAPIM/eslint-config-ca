@@ -1,0 +1,11 @@
+# Logs
+*.log
+
+# Dependency directory
+node_modules
+
+# Editor artifacts
+.idea
+
+# Other
+.DS_Store
