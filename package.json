@@ -4,9 +4,10 @@
   "author": "Bevan Hunt <bevan.hunt@ca.com>",
   "license": "MIT",
   "scripts": {
-    "test": "node test/test.js",
+    "test": "node tests/index.js",
     "commitmsg": "validate-commit-msg",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "precommit": "npm run test"
   },
   "dependencies": {
     "eslint": "^3.5.0",
