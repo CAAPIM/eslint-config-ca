@@ -7,7 +7,7 @@ const CLIEngine = eslint.CLIEngine;
 // The source files to lint.
 const repoFiles = [
   'index.js',
-  'test/test.js',
+  'tests/index.js',
 ];
 
 // Use the rules defined in this repo to test against.
