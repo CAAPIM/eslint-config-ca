@@ -1,7 +1,14 @@
 {
   "version": "1.0.0",
   "name": "eslint-config-ca",
+  "author": "CA Technologies",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "config",
+    "eslint-config",
+    "ca"
+  ],
   "scripts": {
     "test": "node tests/index.js",
     "commitmsg": "validate-commit-msg",
