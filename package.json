@@ -1,7 +1,6 @@
 {
   "version": "1.0.0",
   "name": "eslint-config-ca",
-  "author": "Bevan Hunt <bevan.hunt@ca.com>",
   "license": "MIT",
   "scripts": {
     "test": "node tests/index.js",
