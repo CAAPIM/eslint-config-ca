@@ -1,6 +1,8 @@
 # eslint-config-ca
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Build Status](https://travis-ci.org/caapim/eslint-config-ca.svg?branch=master)](https://travis-ci.org/caapim/eslint-config-ca)
+[![dependencies](https://david-dm.org/caapim/eslint-config-ca.svg)](https://david-dm.org/caapim/eslint-config-ca)
+[![devDependency Status](https://david-dm.org/caapim/eslint-config-ca/dev-status.svg)](https://david-dm.org/caapim/eslint-config-ca#info=devDependencies)
 
 This module is intended to be used in all CA React components and applications
 ************************************************************
