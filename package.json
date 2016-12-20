@@ -1,8 +1,14 @@
 {
   "version": "1.0.0",
   "name": "eslint-config-ca",
-  "author": "Bevan Hunt <bevan.hunt@ca.com>",
+  "author": "CA Technologies",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "config",
+    "eslint-config",
+    "ca"
+  ],
   "scripts": {
     "test": "node tests/index.js",
     "commitmsg": "validate-commit-msg",
