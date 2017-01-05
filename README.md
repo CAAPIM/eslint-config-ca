@@ -4,14 +4,13 @@
 [![dependencies](https://david-dm.org/caapim/eslint-config-ca.svg)](https://david-dm.org/caapim/eslint-config-ca)
 [![devDependency Status](https://david-dm.org/caapim/eslint-config-ca/dev-status.svg)](https://david-dm.org/caapim/eslint-config-ca#info=devDependencies)
 
-This module is intended to be used in all CA React components and applications
-************************************************************
+## Overview
+This package provides CA's `.eslintrc` as an extensible shared config. This configuration is intended to be used in all CA React components and applications.
 
 ## Installation
 ```
 $ npm install --save-dev eslint eslint-config-ca
 ```
-************************************************************
 
 ## Usage
 Once the `eslint-config-ca` package is installed, you can use it by specifying `ca` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
@@ -24,7 +23,6 @@ Once the `eslint-config-ca` package is installed, you can use it by specifying `
   }
 }
 ```
-************************************************************
 
 ## How Can You Contribute
 Your contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines](https://github.com/CAAPIM/eslint-config-ca/blob/master/CONTRIBUTING.md).
@@ -33,7 +31,6 @@ This project supports `commitizen`. You can use `npm run commit` to run the loca
 
 Alternatively, if you are simply using `git commit`, you must follow this format:
 `git commit -m "<type>: <subject>"`
-************************************************************
 
 ## License
 Copyright (c) 2016 CA. All rights reserved.
