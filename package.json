@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "eslint-config-ca",
   "author": "CA Technologies",
   "license": "MIT",
@@ -39,7 +39,7 @@
       "types": "conventional-commit-types"
     },
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "cz-conventional-changelog"
     }
   },
   "repository": {
