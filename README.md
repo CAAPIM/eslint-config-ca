@@ -1,8 +1,8 @@
 # eslint-config-ca
+[![Build Status](https://travis-ci.org/CAAPIM/eslint-config-ca.svg?branch=master)](https://travis-ci.org/CAAPIM/eslint-config-ca)
+[![dependencies](https://david-dm.org/CAAPIM/eslint-config-ca.svg)](https://david-dm.org/CAAPIM/eslint-config-ca)
+[![devDependency Status](https://david-dm.org/CAAPIM/eslint-config-ca/dev-status.svg)](https://david-dm.org/CAAPIM/eslint-config-ca#info=devDependencies)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Build Status](https://travis-ci.org/caapim/eslint-config-ca.svg?branch=master)](https://travis-ci.org/caapim/eslint-config-ca)
-[![dependencies](https://david-dm.org/caapim/eslint-config-ca.svg)](https://david-dm.org/caapim/eslint-config-ca)
-[![devDependency Status](https://david-dm.org/caapim/eslint-config-ca/dev-status.svg)](https://david-dm.org/caapim/eslint-config-ca#info=devDependencies)
 
 ## Overview
 This package provides CA's `.eslintrc` as an extensible shared config. This configuration is intended to be used in all CA React components and applications.
