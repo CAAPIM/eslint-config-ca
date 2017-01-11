@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
   "name": "eslint-config-ca",
+  "version": "0.0.0-development",
   "description": "CA's .eslintrc as an extensible shared config",
   "author": "CA Technologies",
   "license": "MIT",
@@ -14,7 +14,8 @@
     "test": "node tests/index.js",
     "commitmsg": "validate-commit-msg",
     "commit": "git-cz",
-    "precommit": "npm run test"
+    "precommit": "npm run test",
+    "release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "eslint": "^3.5.0",
@@ -33,7 +34,8 @@
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.2.2",
     "husky": "^0.11.9",
-    "validate-commit-msg": "^2.8.2"
+    "validate-commit-msg": "^2.8.2",
+    "semantic-release": "^6.3.2"
   },
   "config": {
     "validate-commit-msg": {
