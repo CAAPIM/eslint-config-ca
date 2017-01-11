@@ -1,6 +1,7 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "eslint-config-ca",
+  "description": "CA's .eslintrc as an extensible shared config",
   "author": "CA Technologies",
   "license": "MIT",
   "keywords": [
