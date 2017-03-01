@@ -25,6 +25,8 @@ module.exports = {
     'react/no-danger': 0,
     'react/style-prop-object': 0,
     'react/prefer-stateless-function': 0,
-    'class-methods-use-this': 0
+    'class-methods-use-this': 0,
+    "global-require": 0,
+    "arrow-body-style": 0,
   }
 };
