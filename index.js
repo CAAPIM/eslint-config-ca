@@ -5,28 +5,17 @@
  */
 
 module.exports = {
-  extends: [
-    'airbnb'
-  ],
+  extends: ['airbnb'],
   rules: {
-    'react/require-extension': 0,
+    // Allow both .js and .jsx to be used for files with JSX syntax
     'react/jsx-filename-extension': [2, {
       extensions: ['.js', '.jsx']
     }],
-    'import/no-extraneous-dependencies': 0,
-    'import/no-named-as-default': 1,
-    'import/no-named-as-default-member': 0,
-    'generator-star-spacing': 0,
+
+    // allow use of unary operators, ++ and --
     'no-plusplus': 0,
-    'no-bitwise': 0,
-    'arrow-parens': 0,
-    'react/no-unused-prop-types': 0,
-    'react/forbid-prop-types': 0,
-    'react/no-danger': 0,
-    'react/style-prop-object': 0,
-    'react/prefer-stateless-function': 0,
-    'class-methods-use-this': 0,
-    "global-require": 0,
-    "arrow-body-style": 0,
+
+    // allow use of any type of paranthesys around arguments in arrow functions
+    'arrow-parens': 0
   }
 };
