@@ -1,4 +1,6 @@
 # eslint-config-ca
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/CAAPIM/eslint-config-ca.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/CAAPIM/eslint-config-ca.svg?branch=master)](https://travis-ci.org/CAAPIM/eslint-config-ca)
 [![dependencies](https://david-dm.org/CAAPIM/eslint-config-ca.svg)](https://david-dm.org/CAAPIM/eslint-config-ca)
 [![devDependency Status](https://david-dm.org/CAAPIM/eslint-config-ca/dev-status.svg)](https://david-dm.org/CAAPIM/eslint-config-ca#info=devDependencies)
