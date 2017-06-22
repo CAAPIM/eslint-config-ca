@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "husky": "^0.13.3",
+    "husky": "^0.14.0",
     "validate-commit-msg": "^2.11.2",
     "semantic-release": "^6.3.2"
   },
