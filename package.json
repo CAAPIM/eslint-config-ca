@@ -18,21 +18,16 @@
     "release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint": "4.2.0",
+    "eslint-config-airbnb": "15.0.2",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.1.0"
   },
   "devDependencies": {
     "assert": "^1.4.1",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3",
     "husky": "^0.13.3",
     "validate-commit-msg": "^2.11.2",
     "semantic-release": "^6.3.2"
