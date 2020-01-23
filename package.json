@@ -28,7 +28,7 @@
     "assert": "1.4.1",
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
-    "husky": "0.14.3",
+    "husky": "4.2.1",
     "validate-commit-msg": "2.14.0",
     "semantic-release": "8.2.0"
   },
